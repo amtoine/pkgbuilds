@@ -1,0 +1,36 @@
+# Maintainer: Antoine Stevan
+pkgname=a2n-s-scripts
+pkgver=5.0.r3.9f46703
+pkgrel=1
+epoch=
+pkgdesc="My personal collection of scripts."
+arch=(x86_64)
+url="https://github.com/a2n-s/scripts.git"
+license=('GNU')
+groups=()
+depends=()
+makedepends=(git)
+checkdepends=()
+optdepends=()
+provides=()
+conflicts=()
+replaces=()
+backup=()
+options=()
+install=
+changelog=
+source=("git+$url")
+noextract=()
+md5sums=('SKIP')
+validpgpkeys=()
+
+pkgver() {
+	cd "${_pkgname}"
+  printf "5.0.r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+package() {
+    cd scripts
+    mkdir -p ${pkgdir}/usr/local/bin/
+    cp -rf scripts/* ${pkgdir}/usr/local/bin/
+}
