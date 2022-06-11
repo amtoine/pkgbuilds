@@ -5,7 +5,10 @@ pkgrel=1
 epoch=
 pkgdesc="A patched build of sfm."
 arch=(x86_64)
-url="https://github.com/a2n-s/sfm.git"
+host="github.com"
+user="a2n-s"
+repo="sfm"
+url="https://$host/$user/$repo.git"
 license=('GNU')
 groups=()
 depends=(nerd-fonts-mononoki)
@@ -26,7 +29,7 @@ validpgpkeys=()
 
 pkgver() {
   cd "${_pkgname}"
-  printf "5.0.r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+  printf "r%s.%s" "$(git -C "$repo" rev-list --count HEAD)" "$(git -C "$repo" rev-parse --short HEAD)"
 }
 
 build() {
@@ -35,10 +38,10 @@ build() {
 }
 
 package() {
-    cd sfm
-    mkdir -p ${pkgdir}/opt/${pkgname}
-    cp -rf * ${pkgdir}/opt/${pkgname}
-    make PREFIX=/usr DESTDIR="${pkgdir}" install
-    install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
-    install -Dm644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+  cd sfm
+  mkdir -p ${pkgdir}/opt/${pkgname}
+  cp -rf * ${pkgdir}/opt/${pkgname}
+  make PREFIX=/usr DESTDIR="${pkgdir}" install
+  install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  install -Dm644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
 }

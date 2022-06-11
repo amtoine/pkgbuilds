@@ -5,7 +5,10 @@ pkgrel=1
 epoch=
 pkgdesc="A patched build of tabbed."
 arch=(x86_64)
-url="https://github.com/a2n-s/tabbed.git"
+host="github.com"
+user="a2n-s"
+repo="tabbed"
+url="https://$host/$user/$repo.git"
 license=('GNU')
 groups=()
 depends=()
@@ -26,7 +29,7 @@ validpgpkeys=()
 
 pkgver() {
   cd "${_pkgname}"
-  printf "5.0.r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+  printf "r%s.%s" "$(git -C "$repo" rev-list --count HEAD)" "$(git -C "$repo" rev-parse --short HEAD)"
 }
 
 build() {
