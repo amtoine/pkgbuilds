@@ -20,7 +20,7 @@ conflicts=()
 replaces=()
 backup=()
 options=()
-install=${pkgname}.install
+install=.install
 changelog=
 source=("git+$url#branch=arch/pkgbuild")
 noextract=()
