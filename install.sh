@@ -20,6 +20,7 @@ do
     (
         cd "${dir_path}/x86_64/${pkgbuild}" || return
         echo "### Making ${dir_path}/x86_64/${pkgbuild} ###"
+        makepkg --printsrcinfo > .SRCINFO
         makepkg -cf
     )
 done
