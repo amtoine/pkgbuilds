@@ -33,7 +33,7 @@ pkgver() {
 }
 
 package() {
-    cd sounds
+    cd "$repo"
     mkdir -p ${pkgdir}/usr/share/sounds/${pkgname}
     cp -rf sounds/* ${pkgdir}/usr/share/sounds/${pkgname}
 }

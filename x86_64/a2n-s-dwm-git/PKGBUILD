@@ -33,12 +33,12 @@ pkgver() {
 }
 
 build() {
-    cd dwm
+    cd "$repo"
     make X11INC=/usr/include/X11 X11LIB=/usr/lib/X11
 }
 
 package() {
-    cd dwm
+    cd "$repo"
     mkdir -p ${pkgdir}/opt/${pkgname}
     cp -rf * ${pkgdir}/opt/${pkgname}
     cp -rf dwm.desktop ${pkgdir}/usr/share/xsessions/dwm.desktop
