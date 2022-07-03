@@ -33,12 +33,12 @@ pkgver() {
 }
 
 build() {
-  cd sfm
+  cd "$repo"
   make X11INC=/usr/include/X11 X11LIB=/usr/lib/X11
 }
 
 package() {
-  cd sfm
+  cd "$repo"
   mkdir -p ${pkgdir}/opt/${pkgname}
   cp -rf * ${pkgdir}/opt/${pkgname}
   make PREFIX=/usr DESTDIR="${pkgdir}" install

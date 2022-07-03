@@ -33,7 +33,7 @@ pkgver() {
 }
 
 package() {
-    cd applications
+    cd "$repo"
     mkdir -p ${pkgdir}/usr/share/applications/
     cp -rf applications/* ${pkgdir}/usr/share/applications
 }

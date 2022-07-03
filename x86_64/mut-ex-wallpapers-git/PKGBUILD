@@ -22,7 +22,7 @@ backup=()
 options=()
 install=
 changelog=
-source=("git+$url#branch=arch/pkgbuild")
+source=("git+$url#branch=refactor/put-all-the-files-in-a-directory")
 noextract=()
 md5sums=('SKIP')
 validpgpkeys=()
@@ -33,7 +33,7 @@ pkgver() {
 }
 
 package() {
-    cd "${pkgname}"
+    cd "$repo"
     mkdir -p ${pkgdir}/usr/share/backgrounds/${pkgname}
     cp -rf wallpapers/* ${pkgdir}/usr/share/backgrounds/${pkgname}
 }
