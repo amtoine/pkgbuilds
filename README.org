@@ -4,7 +4,7 @@ A collection of all the ~PKGBUILD~ needed to recover the software and libs of my
 ** Installation
 first download all the ~PKGBUILD~ with:
 #+begin_src bash
-git clone https://github.com/a2n-s/pkgbuilds
+git clone https://github.com/amtoine/pkgbuilds
 cd ./pkgbuilds
 #+end_src
 
@@ -13,8 +13,8 @@ cd ./pkgbuilds
 use the ~install.sh~ script to install packages with ~pacman~
 
 simply give the names of the packages you want to install after the call to the script:
-- ~./install.sh x86_64/a2n-s-scripts-git~ would install my scripts
-- ~./install.sh x86_64/a2n-s-wallpapers-git x86_64/a2n-s-icons-git~ would install my wallpapers and my icons
+- ~./install.sh x86_64/amtoine-scripts-git~ would install my scripts
+- ~./install.sh x86_64/amtoine-wallpapers-git x86_64/amtoine-icons-git~ would install my wallpapers and my icons
 - ~./install.sh x86_64/*~ or ~./install.sh~ would install all the packages.
 
 Once the packages are installed, one can clean the repo from build files with ~./clean.sh~.

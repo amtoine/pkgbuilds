@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=a2n-s-icons-git
+pkgname=amtoine-icons-git
 pkgver=5.0.r4.f601c5e
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of icons."
 arch=(x86_64)
 host="github.com"
-user="a2n-s"
+user="amtoine"
 repo="icons"
 url="https://$host/$user/$repo.git"
 license=('GNU')

@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=a2n-s-applications-git
+pkgname=amtoine-applications-git
 pkgver=1.0.r2.277ee33
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of .desktop files, a.k.a. linux applications."
 arch=(x86_64)
 host="github.com"
-user="a2n-s"
+user="amtoine"
 repo="applications"
 url="https://$host/$user/$repo.git"
 license=('GNU')

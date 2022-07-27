@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=a2n-s-st-git
+pkgname=amtoine-st-git
 pkgver=5.0.r1176.8ceca6f
 pkgrel=1
 epoch=
 pkgdesc="A heavily patched build of st."
 arch=(x86_64)
 host="github.com"
-user="a2n-s"
+user="amtoine"
 repo="st"
 url="https://$host/$user/$repo.git"
 license=('GNU')

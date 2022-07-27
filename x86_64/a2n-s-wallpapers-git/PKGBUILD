@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=a2n-s-wallpapers-git
+pkgname=amtoine-wallpapers-git
 pkgver=5.0.r589.8c0f76a
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of wallpapers."
 arch=(x86_64)
 host="github.com"
-user="a2n-s"
+user="amtoine"
 repo="wallpapers"
 url="https://$host/$user/$repo.git"
 license=('GNU')
