@@ -39,5 +39,5 @@ build() {
 
 package() {
     cd "$repo"
-    sudo make install
+    sudo make BINDIR=/usr/bin/ install
 }
