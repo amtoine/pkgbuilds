@@ -1,0 +1,39 @@
+# Maintainer: Antoine Stevan
+pkgname=theprimeagen-anime-wallpapers-git
+pkgver=r15.e9c77b0
+pkgrel=1
+epoch=
+pkgdesc="The repo that everyone deserves."
+arch=(x86_64)
+host="github.com"
+user="ThePrimeagen"
+repo="anime"
+url="https://$host/$user/$repo.git"
+license=('GNU')
+groups=()
+depends=()
+makedepends=(git)
+checkdepends=()
+optdepends=()
+provides=()
+conflicts=()
+replaces=()
+backup=()
+options=()
+install=
+changelog=
+source=("git+$url")
+noextract=()
+md5sums=('SKIP')
+validpgpkeys=()
+
+pkgver() {
+    cd "${_pkgname}"
+    printf "r%s.%s" "$(git -C "$repo" rev-list --count HEAD)" "$(git -C "$repo" rev-parse --short HEAD)"
+}
+
+package() {
+    cd "$repo"
+    mkdir -p ${pkgdir}/usr/share/backgrounds/${pkgname}
+    cp -rf * ${pkgdir}/usr/share/backgrounds/${pkgname}
+}
