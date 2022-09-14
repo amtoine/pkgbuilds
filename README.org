@@ -20,3 +20,6 @@ simply give the names of the packages you want to install after the call to the 
 Once the packages are installed, one can clean the repo from build files with ~./clean.sh~.
 *** on another distribution of Linux
 /Makefile and instructions *coming soon*/
+
+** The packages and their versions
+Please see [[https://github.com/amtoine/pkgbuilds/blob/main/VERSIONS.md][VERSIONS.md]].
