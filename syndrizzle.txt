@@ -1,0 +1,5 @@
+https://github.com/Syndrizzle/wallpapers
+https://github.com/Syndrizzle/hotfiles/tree/xfce/.wallpapers
+https://github.com/Syndrizzle/hotfiles/tree/fvwm/.wallpapers
+https://github.com/Syndrizzle/hotfiles/tree/bspwm/.wallpapers
+https://github.com/Syndrizzle/hotfiles/tree/worm/.wallpapers
