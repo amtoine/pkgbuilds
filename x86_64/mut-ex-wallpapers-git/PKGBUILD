@@ -1,6 +1,6 @@
 # Maintainer: mut-ex
 pkgname=mut-ex-wallpapers-git
-pkgver=5.0.r589.8c0f76a
+pkgver=r36.849587d
 pkgrel=1
 epoch=
 pkgdesc="Public collection of wallpapers."

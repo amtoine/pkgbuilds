@@ -1,6 +1,6 @@
 # Maintainer: Antoine Stevan
 pkgname=amtoine-wallpapers-git
-pkgver=5.0.r589.8c0f76a
+pkgver=r32.e5ba1e1
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of wallpapers."

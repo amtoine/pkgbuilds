@@ -1,6 +1,6 @@
 # Maintainer: Antoine Stevan
 pkgname=syndrizzle-wallpapers-git
-pkgver=r10.a8c6e4de7
+pkgver=r2.45953f1d2
 pkgrel=1
 epoch=
 pkgdesc="A collection of personal configuration files for various rices I have made (quote from Syndrizzle/hotfiles)."
