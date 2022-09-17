@@ -1,6 +1,6 @@
 # Maintainer: Antoine Stevan
 pkgname=vim-git
-pkgver=r16498.e1f3fd1d0
+pkgver=r16761.12167d8b8
 pkgrel=1
 epoch=
 pkgdesc="My personal build of vim with clipboard support."

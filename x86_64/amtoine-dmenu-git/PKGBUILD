@@ -1,6 +1,6 @@
 # Maintainer: Antoine Stevan
 pkgname=amtoine-dmenu-git
-pkgver=5.0.r589.8c0f76a
+pkgver=r597.28fb3e2
 pkgrel=1
 epoch=
 pkgdesc="A heavily patched build of dmenu."

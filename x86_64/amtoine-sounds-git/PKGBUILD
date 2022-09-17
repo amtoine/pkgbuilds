@@ -1,6 +1,6 @@
 # Maintainer: Antoine Stevan
 pkgname=amtoine-sounds-git
-pkgver=5.0.r3.9f46703
+pkgver=r4.5d10643
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of sounds."

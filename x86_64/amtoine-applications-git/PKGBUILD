@@ -1,6 +1,6 @@
 # Maintainer: Antoine Stevan
 pkgname=amtoine-applications-git
-pkgver=1.0.r2.277ee33
+pkgver=1.0.r6.27242df
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of .desktop files, a.k.a. linux applications."

@@ -1,6 +1,6 @@
 # Maintainer: Antoine Stevan
 pkgname=amtoine-icons-git
-pkgver=5.0.r4.f601c5e
+pkgver=r21.7cc7ce2
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of icons."
