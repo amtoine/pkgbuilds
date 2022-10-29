@@ -24,7 +24,7 @@ def gen-links [] {
         insert url {
             |it|
             let pkg = ($it.name  | str replace $"($path)/" "")
-            $"[($pkg)]: https://github.com/amtoine/pkgbuilds/blob/main/($path)/($pkg)/PKGBUILD"
+            $"[($pkg)]: https://github.com/goatfiles/pkgbuilds/blob/main/($path)/($pkg)/PKGBUILD"
         } |
         select url |
         to csv -n |
