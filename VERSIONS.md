@@ -22,23 +22,23 @@
 | [yay]                        | 11.2.0            |
 
 
-[amtoine-applications-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/amtoine-applications-git/PKGBUILD
-[amtoine-dmenu-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/amtoine-dmenu-git/PKGBUILD
-[amtoine-dwm-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/amtoine-dwm-git/PKGBUILD
-[amtoine-icons-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/amtoine-icons-git/PKGBUILD
-[amtoine-scripts-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/amtoine-scripts-git/PKGBUILD
-[amtoine-slock-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/amtoine-slock-git/PKGBUILD
-[amtoine-sounds-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/amtoine-sounds-git/PKGBUILD
-[amtoine-st-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/amtoine-st-git/PKGBUILD
-[amtoine-surf-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/amtoine-surf-git/PKGBUILD
-[amtoine-tabbed-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/amtoine-tabbed-git/PKGBUILD
-[amtoine-wallpapers-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/amtoine-wallpapers-git/PKGBUILD
-[aura]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/aura/PKGBUILD
-[junnunkarim-wallpapers-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/junnunkarim-wallpapers-git/PKGBUILD
-[mut-ex-wallpapers-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/mut-ex-wallpapers-git/PKGBUILD
-[paru]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/paru/PKGBUILD
-[sfm-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/sfm-git/PKGBUILD
-[syndrizzle-wallpapers-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/syndrizzle-wallpapers-git/PKGBUILD
-[vim-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/vim-git/PKGBUILD
-[yay]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/yay/PKGBUILD
+[amtoine-applications-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/amtoine-applications-git/PKGBUILD
+[amtoine-dmenu-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/amtoine-dmenu-git/PKGBUILD
+[amtoine-dwm-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/amtoine-dwm-git/PKGBUILD
+[amtoine-icons-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/amtoine-icons-git/PKGBUILD
+[amtoine-scripts-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/amtoine-scripts-git/PKGBUILD
+[amtoine-slock-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/amtoine-slock-git/PKGBUILD
+[amtoine-sounds-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/amtoine-sounds-git/PKGBUILD
+[amtoine-st-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/amtoine-st-git/PKGBUILD
+[amtoine-surf-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/amtoine-surf-git/PKGBUILD
+[amtoine-tabbed-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/amtoine-tabbed-git/PKGBUILD
+[amtoine-wallpapers-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/amtoine-wallpapers-git/PKGBUILD
+[aura]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/aura/PKGBUILD
+[junnunkarim-wallpapers-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/junnunkarim-wallpapers-git/PKGBUILD
+[mut-ex-wallpapers-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/mut-ex-wallpapers-git/PKGBUILD
+[paru]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/paru/PKGBUILD
+[sfm-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/sfm-git/PKGBUILD
+[syndrizzle-wallpapers-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/syndrizzle-wallpapers-git/PKGBUILD
+[vim-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/vim-git/PKGBUILD
+[yay]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/yay/PKGBUILD
 
