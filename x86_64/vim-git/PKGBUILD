@@ -1,5 +1,5 @@
 # Maintainer: Antoine Stevan
-pkgname=vim-git
+pkgname=goat-vim-git
 pkgver=r16761.12167d8b8
 pkgrel=1
 epoch=

@@ -1,5 +1,5 @@
 # Maintainer: Morgan <morganamilo@archlinux.org>
-pkgname=paru
+pkgname=goat-paru-git
 pkgver=1.10.0
 pkgrel=1
 pkgdesc='Feature packed AUR helper'

@@ -1,5 +1,5 @@
 # Maintainer: Antoine Stevan
-pkgname=sfm-git
+pkgname=goat-sfm-git
 pkgver=5.0.r589.8c0f76a
 pkgrel=1
 epoch=
