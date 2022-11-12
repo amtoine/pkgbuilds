@@ -1,0 +1,39 @@
+# Maintainer: Antoine Stevan
+pkgname=goat-junnunkarim-wallpapers-git
+pkgver=r4.9893042
+pkgrel=1
+epoch=
+pkgdesc="A collection of wallpapers from junnunkarim/dotfiles-linux."
+arch=(x86_64)
+host="github.com"
+user="amtoine"
+repo="junnunkarim-wallpapers"
+url="https://$host/$user/$repo.git"
+license=('GNU')
+groups=()
+depends=(feh)
+makedepends=(git)
+checkdepends=()
+optdepends=()
+provides=()
+conflicts=()
+replaces=()
+backup=()
+options=()
+install=
+changelog=
+source=("git+$url")
+noextract=()
+md5sums=('SKIP')
+validpgpkeys=()
+
+pkgver() {
+    cd "${_pkgname}"
+    printf "r%s.%s" "$(git -C "$repo" rev-list --count HEAD)" "$(git -C "$repo" rev-parse --short HEAD)"
+}
+
+package() {
+    cd "$repo"
+    mkdir -p ${pkgdir}/usr/share/backgrounds/${pkgname}
+    cp -rf wallpapers/* ${pkgdir}/usr/share/backgrounds/${pkgname}
+}
