@@ -1,0 +1,39 @@
+# Maintainer: Antoine Stevan
+pkgname=goat-wallpapers-git
+pkgver=r32.e5ba1e1
+pkgrel=1
+epoch=
+pkgdesc="My personal collection of wallpapers."
+arch=(x86_64)
+host="github.com"
+owner="goatfiles
+repo="wallpapers"
+url="https://$host/$owner/$repo.git"
+license=('GNU')
+groups=()
+depends=(feh)
+makedepends=(git)
+checkdepends=()
+optdepends=()
+provides=()
+conflicts=()
+replaces=()
+backup=()
+options=()
+install=
+changelog=
+source=("git+$url")
+noextract=()
+md5sums=('SKIP')
+validpgpkeys=()
+
+pkgver() {
+    cd "${_pkgname}"
+    printf "r%s.%s" "$(git -C "$repo" rev-list --count HEAD)" "$(git -C "$repo" rev-parse --short HEAD)"
+}
+
+package() {
+    cd "$repo"
+    mkdir -p ${pkgdir}/usr/share/backgrounds/${pkgname}
+    cp -rf wallpapers/* ${pkgdir}/usr/share/backgrounds/${pkgname}
+}
