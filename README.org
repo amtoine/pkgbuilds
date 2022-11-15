@@ -4,7 +4,7 @@ A collection of all the ~PKGBUILD~ needed to recover the software and libs of my
 ** Installation
 first download all the ~PKGBUILD~ with:
 #+begin_src bash
-git clone https://github.com/amtoine/pkgbuilds
+git clone https://github.com/goatfiles/pkgbuilds
 cd ./pkgbuilds
 #+end_src
 
@@ -22,4 +22,4 @@ Once the packages are installed, one can clean the repo from build files with ~.
 /Makefile and instructions *coming soon*/
 
 ** The packages and their versions
-Please see [[https://github.com/amtoine/pkgbuilds/blob/main/VERSIONS.md][VERSIONS.md]].
+Please see [[https://github.com/goatfiles/pkgbuilds/blob/main/VERSIONS.md][VERSIONS.md]].

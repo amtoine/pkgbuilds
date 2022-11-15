@@ -41,4 +41,3 @@
 [goat-vim-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-vim-git/PKGBUILD
 [goat-wallpapers-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-wallpapers-git/PKGBUILD
 [goat-yay-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-yay-git/PKGBUILD
-
