@@ -1,0 +1,38 @@
+# Maintainer: Antoine Stevan
+pkgname=goat-remote-git
+pkgver=xxx
+pkgrel=1
+epoch=
+pkgdesc="A remote emulator for a linux-ps3 system."
+arch=(x86_64)
+host="github.com"
+owner="amtoine"
+repo="remote-ps3"
+url="https://$host/$owner/$repo.git"
+license=('GNU')
+groups=()
+depends=(tk virtualenv)
+makedepends=(git)
+checkdepends=()
+optdepends=()
+provides=()
+conflicts=()
+replaces=()
+backup=()
+options=()
+install=
+changelog=
+source=("git+$url")
+noextract=()
+md5sums=('SKIP')
+validpgpkeys=()
+
+pkgver() {
+    cd "${_pkgname}"
+    printf "r%s.%s" "$(git -C "$repo" rev-list --count HEAD)" "$(git -C "$repo" rev-parse --short HEAD)"
+}
+
+package() {
+    cd "$repo"
+    ./scripts/install.sh
+}
