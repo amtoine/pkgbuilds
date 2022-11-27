@@ -1,6 +1,6 @@
 # Maintainer: Antoine Stevan
 pkgname=goat-remote-git
-pkgver=xxx
+pkgver=r21.c32f4bb
 pkgrel=1
 epoch=
 pkgdesc="A remote emulator for a linux-ps3 system."
