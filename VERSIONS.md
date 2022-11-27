@@ -9,6 +9,7 @@
 | [goat-junnunkarim-wallpapers-git] | r4.9893042        |
 | [goat-mut-ex-wallpapers-git]      | r36.849587d       |
 | [goat-paru-git]                   | 1.10.0            |
+| [goat-remote-git]                 | r21.c32f4bb       |
 | [goat-scripts-git]                | r34.64521f4       |
 | [goat-sfm-git]                    | 5.0.r589.8c0f76a  |
 | [goat-slock-git]                  | 5.0.r132.a4d249a  |
@@ -41,3 +42,4 @@
 [goat-vim-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-vim-git/PKGBUILD
 [goat-wallpapers-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-wallpapers-git/PKGBUILD
 [goat-yay-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-yay-git/PKGBUILD
+[goat-remote-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-remote-git/PKGBUILD
