@@ -23,23 +23,23 @@
 | [goat-yay-git]                    | 11.2.0            |
 
 
-[goat-applications-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-applications-git/PKGBUILD
-[goat-aura-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-aura-git/PKGBUILD
-[goat-dmenu-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-dmenu-git/PKGBUILD
-[goat-dwm-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-dwm-git/PKGBUILD
-[goat-icons-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-icons-git/PKGBUILD
-[goat-junnunkarim-wallpapers-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-junnunkarim-wallpapers-git/PKGBUILD
-[goat-mut-ex-wallpapers-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-mut-ex-wallpapers-git/PKGBUILD
-[goat-paru-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-paru-git/PKGBUILD
-[goat-scripts-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-scripts-git/PKGBUILD
-[goat-sfm-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-sfm-git/PKGBUILD
-[goat-slock-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-slock-git/PKGBUILD
-[goat-sounds-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-sounds-git/PKGBUILD
-[goat-st-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-st-git/PKGBUILD
-[goat-surf-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-surf-git/PKGBUILD
-[goat-syndrizzle-wallpapers-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-syndrizzle-wallpapers-git/PKGBUILD
-[goat-tabbed-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-tabbed-git/PKGBUILD
-[goat-vim-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-vim-git/PKGBUILD
-[goat-wallpapers-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-wallpapers-git/PKGBUILD
-[goat-yay-git]: https://github.com/amtoine/pkgbuilds/blob/main/x86_64/goat-yay-git/PKGBUILD
+[goat-applications-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-applications-git/PKGBUILD
+[goat-aura-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-aura-git/PKGBUILD
+[goat-dmenu-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-dmenu-git/PKGBUILD
+[goat-dwm-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-dwm-git/PKGBUILD
+[goat-icons-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-icons-git/PKGBUILD
+[goat-junnunkarim-wallpapers-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-junnunkarim-wallpapers-git/PKGBUILD
+[goat-mut-ex-wallpapers-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-mut-ex-wallpapers-git/PKGBUILD
+[goat-paru-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-paru-git/PKGBUILD
 [goat-remote-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-remote-git/PKGBUILD
+[goat-scripts-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-scripts-git/PKGBUILD
+[goat-sfm-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-sfm-git/PKGBUILD
+[goat-slock-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-slock-git/PKGBUILD
+[goat-sounds-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-sounds-git/PKGBUILD
+[goat-st-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-st-git/PKGBUILD
+[goat-surf-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-surf-git/PKGBUILD
+[goat-syndrizzle-wallpapers-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-syndrizzle-wallpapers-git/PKGBUILD
+[goat-tabbed-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-tabbed-git/PKGBUILD
+[goat-vim-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-vim-git/PKGBUILD
+[goat-wallpapers-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-wallpapers-git/PKGBUILD
+[goat-yay-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-yay-git/PKGBUILD
