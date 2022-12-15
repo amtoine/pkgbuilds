@@ -1,6 +1,6 @@
 # Maintainer: Antoine Stevan
 pkgname=goat-sounds-git
-pkgver=r4.5d10643
+pkgver=r5.0f05e4f
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of sounds."

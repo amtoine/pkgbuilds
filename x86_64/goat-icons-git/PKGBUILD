@@ -1,6 +1,6 @@
 # Maintainer: Antoine Stevan
 pkgname=goat-icons-git
-pkgver=r21.7cc7ce2
+pkgver=r22.a2864f9
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of icons."
