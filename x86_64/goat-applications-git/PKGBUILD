@@ -1,6 +1,6 @@
 # Maintainer: Antoine Stevan
 pkgname=goat-applications-git
-pkgver=r8.25358fa
+pkgver=r9.e5ce6b0
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of .desktop files, a.k.a. linux applications."
