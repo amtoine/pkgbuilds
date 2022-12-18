@@ -1,20 +1,23 @@
 # Maintainer: Morgan <morganamilo@archlinux.org>
-pkgname=goat-paru-git
-pkgver=1.10.0
+pkgname=paru-git
+_pkgname=paru
+pkgver=1.7.3.r22.g1ed1f29
 pkgrel=1
 pkgdesc='Feature packed AUR helper'
 url='https://github.com/morganamilo/paru'
-source=("$pkgname-$pkgver.tar.gz::https://github.com/Morganamilo/paru/archive/v$pkgver.tar.gz")
+source=("git+https://github.com/morganamilo/paru")
 backup=("etc/paru.conf")
 arch=('i686' 'pentium4' 'x86_64' 'arm' 'armv7h' 'armv6h' 'aarch64')
 license=('GPL3')
 makedepends=('cargo')
-depends=('git' 'pacman')
+depends=('glibc' 'git' 'pacman')
 optdepends=('asp: downloading repo pkgbuilds' 'bat: colored pkgbuild printing' 'devtools: build in chroot')
-sha256sums=('51d8f35d194b94f5ae35b203ae75041a236a91a3bfb49d48f73650037587115f')
+conflicts=('paru')
+provides=('paru')
+sha256sums=(SKIP)
 
 build () {
-  cd "$srcdir/$pkgname-$pkgver"
+  cd "$srcdir/$_pkgname"
 
   if pacman -T pacman-git > /dev/null; then
     _features+="git,"
@@ -28,12 +31,12 @@ build () {
     export CARGO_PROFILE_RELEASE_LTO=off
   fi
 
-  cargo build --locked --features "${_features:-}" --release --target-dir target
+  PARU_VERSION=$pkgver cargo build --locked --features "${_features:-}" --release --target-dir target
   ./scripts/mkmo locale/
 }
 
 package() {
-  cd "$srcdir/$pkgname-$pkgver"
+  cd "$srcdir/$_pkgname"
 
   install -Dm755 target/release/paru "${pkgdir}/usr/bin/paru"
   install -Dm644 paru.conf "${pkgdir}/etc/paru.conf"
@@ -48,3 +51,9 @@ package() {
   install -d "$pkgdir/usr/share/"
   cp -r locale "$pkgdir/usr/share/"
 }
+
+pkgver() {
+  cd "$srcdir/$_pkgname"
+  git describe --long --tags | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
+}
+
