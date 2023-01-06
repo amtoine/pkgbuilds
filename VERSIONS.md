@@ -1,29 +1,25 @@
-## The packages and their versions
-| name                              | version           |
-| --------------------------------- | ----------------- |
-| [goat-applications-git]           | 1.0.r6.27242df    |
-| [goat-aura-git]                   | 3.2.9             |
-| [goat-dmenu-git]                  | r597.28fb3e2      |
-| [goat-dwm-git]                    | 5.0.r.            |
-| [goat-icons-git]                  | r21.7cc7ce2       |
-| [goat-junnunkarim-wallpapers-git] | r4.9893042        |
-| [goat-mut-ex-wallpapers-git]      | r36.849587d       |
-| [goat-paru-git]                   | 1.10.0            |
-| [goat-remote-git]                 | r21.c32f4bb       |
-| [goat-scripts-git]                | r34.64521f4       |
-| [goat-sfm-git]                    | 5.0.r589.8c0f76a  |
-| [goat-slock-git]                  | 5.0.r132.a4d249a  |
-| [goat-sounds-git]                 | r4.5d10643        |
-| [goat-st-git]                     | 5.0.r1176.8ceca6f |
-| [goat-surf-git]                   | 5.0.r628.7e63f07  |
-| [goat-syndrizzle-wallpapers-git]  | r2.45953f1d2      |
-| [goat-tabbed-git]                 | 5.0.r628.7e63f07  |
-| [goat-vim-git]                    | r16761.12167d8b8  |
-| [goat-wallpapers-git]             | r32.e5ba1e1       |
-| [goat-yay-git]                    | 11.2.0            |
-
-
-[goat-applications-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-applications-git/PKGBUILD
+## The packages and their versions| name                              | version            |
+| --------------------------------- | ------------------ |
+| [goat-applications-git]           | r11.d1b70d8        |
+| [goat-aura-git]                   | 3.2.9              |
+| [goat-dmenu-git]                  | r597.28fb3e2       |
+| [goat-dwm-git]                    | 5.0.r.             |
+| [goat-icons-git]                  | r22.a2864f9        |
+| [goat-junnunkarim-wallpapers-git] | r5.ed614bd         |
+| [goat-mut-ex-wallpapers-git]      | r36.849587d        |
+| [goat-paru-git]                   | 1.7.3.r22.g1ed1f29 |
+| [goat-remote-git]                 | r21.c32f4bb        |
+| [goat-scripts-git]                | r41.70ca3a3        |
+| [goat-sfm-git]                    | 5.0.r589.8c0f76a   |
+| [goat-slock-git]                  | 5.0.r132.a4d249a   |
+| [goat-sounds-git]                 | r5.0f05e4f         |
+| [goat-st-git]                     | 5.0.r1176.8ceca6f  |
+| [goat-surf-git]                   | 5.0.r628.7e63f07   |
+| [goat-syndrizzle-wallpapers-git]  | r2.45953f1d2       |
+| [goat-tabbed-git]                 | 5.0.r628.7e63f07   |
+| [goat-vim-git]                    | r16761.12167d8b8   |
+| [goat-wallpapers-git]             | r33.52e7e25        |
+| [goat-yay-git]                    | 11.2.0             |[goat-applications-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-applications-git/PKGBUILD
 [goat-aura-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-aura-git/PKGBUILD
 [goat-dmenu-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-dmenu-git/PKGBUILD
 [goat-dwm-git]: https://github.com/goatfiles/pkgbuilds/blob/main/x86_64/goat-dwm-git/PKGBUILD
