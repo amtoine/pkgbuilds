@@ -1,6 +1,6 @@
 # Maintainer: Antoine Stevan
 pkgname=goat-scripts-git
-pkgver=r41.70ca3a3
+pkgver=r42.316356d
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of scripts."
