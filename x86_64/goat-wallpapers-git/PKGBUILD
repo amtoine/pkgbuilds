@@ -1,6 +1,6 @@
 # Maintainer: Antoine Stevan
 pkgname=goat-wallpapers-git
-pkgver=r50.841a038
+pkgver=r54.0d352b2
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of wallpapers."
