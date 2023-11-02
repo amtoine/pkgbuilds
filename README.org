@@ -13,7 +13,7 @@ cd ./pkgbuilds
 use the ~install.sh~ script to install packages with ~pacman~
 
 simply give the names of the packages you want to install after the call to the script:
-- ~./install.sh x86_64/amtoine-scripts-git~ would install my scripts
+- ~./install.sh x86_64/amtoine-wallpapers-git~ would install my wallpapers alone
 - ~./install.sh x86_64/amtoine-wallpapers-git x86_64/amtoine-icons-git~ would install my wallpapers and my icons
 - ~./install.sh x86_64/*~ or ~./install.sh~ would install all the packages.
 
