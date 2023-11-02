@@ -1,5 +1,5 @@
 # Maintainer: Colin Woodbury <colin@fosskers.ca>
-pkgname=goat-aura-git
+pkgname=amtoine-aura-git
 pkgver=3.2.9
 pkgrel=1
 pkgdesc="A secure package manager for Arch Linux and the AUR"

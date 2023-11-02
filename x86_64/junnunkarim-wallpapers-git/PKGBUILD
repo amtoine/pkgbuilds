@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=goat-junnunkarim-wallpapers-git
+pkgname=amtoine-junnunkarim-wallpapers-git
 pkgver=r5.ed614bd
 pkgrel=1
 epoch=
 pkgdesc="A collection of wallpapers from junnunkarim/dotfiles-linux."
 arch=(x86_64)
 host="github.com"
-owner="goatfiles"
+owner="amtoine"
 repo="junnunkarim-wallpapers"
 url="https://$host/$owner/$repo.git"
 license=('GNU')

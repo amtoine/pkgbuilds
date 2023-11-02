@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=goat-sfm-git
+pkgname=amtoine-sfm-git
 pkgver=5.0.r589.8c0f76a
 pkgrel=1
 epoch=
 pkgdesc="A patched build of sfm."
 arch=(x86_64)
 host="github.com"
-owner="goatfiles"
+owner="amtoine"
 repo="sfm"
 url="https://$host/$owner/$repo.git"
 license=('GNU')

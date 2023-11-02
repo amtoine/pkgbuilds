@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=goat-sounds-git
+pkgname=amtoine-sounds-git
 pkgver=r5.0f05e4f
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of sounds."
 arch=(x86_64)
 host="github.com"
-owner="goatfiles"
+owner="amtoine"
 repo="sounds"
 url="https://$host/$owner/$repo.git"
 license=('GNU')

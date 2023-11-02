@@ -1,5 +1,5 @@
 # Maintainer: Morgan <morganamilo@archlinux.org>
-pkgname=goat-paru-git
+pkgname=amtoine-paru-git
 _pkgname=paru
 pkgver=1.7.3.r22.g1ed1f29
 pkgrel=1

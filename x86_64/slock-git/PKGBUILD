@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=goat-slock-git
+pkgname=amtoine-slock-git
 pkgver=5.0.r132.a4d249a
 pkgrel=1
 epoch=
 pkgdesc="A heavily patched build of slock."
 arch=(x86_64)
 host="github.com"
-owner="goatfiles"
+owner="amtoine"
 repo="slock"
 url="https://$host/$owner/$repo.git"
 license=('GNU')

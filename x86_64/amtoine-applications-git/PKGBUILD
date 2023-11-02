@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=goat-applications-git
+pkgname=amtoine-applications-git
 pkgver=r11.d1b70d8
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of .desktop files, a.k.a. linux applications."
 arch=(x86_64)
 host="github.com"
-owner="goatfiles"
+owner="amtoine"
 repo="applications"
 url="https://$host/$owner/$repo.git"
 license=('GNU')

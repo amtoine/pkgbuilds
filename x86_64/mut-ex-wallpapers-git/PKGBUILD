@@ -1,12 +1,12 @@
 # Maintainer: mut-ex
-pkgname=goat-mut-ex-wallpapers-git
+pkgname=amtoine-mut-ex-wallpapers-git
 pkgver=r36.849587d
 pkgrel=1
 epoch=
 pkgdesc="Public collection of wallpapers."
 arch=(x86_64)
 host="github.com"
-owner="goatfiles"
+owner="amtoine"
 repo="mut-ex-wallpapers"
 url="https://$host/$owner/$repo.git"
 license=('GNU')

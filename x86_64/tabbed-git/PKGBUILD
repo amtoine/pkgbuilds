@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=goat-tabbed-git
+pkgname=amtoine-tabbed-git
 pkgver=5.0.r628.7e63f07
 pkgrel=1
 epoch=
 pkgdesc="A patched build of tabbed."
 arch=(x86_64)
 host="github.com"
-owner="goatfiles"
+owner="amtoine"
 repo="tabbed"
 url="https://$host/$owner/$repo.git"
 license=('GNU')

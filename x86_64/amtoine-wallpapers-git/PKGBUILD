@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=goat-wallpapers-git
+pkgname=amtoine-wallpapers-git
 pkgver=r54.0d352b2
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of wallpapers."
 arch=(x86_64)
 host="github.com"
-owner="goatfiles"
+owner="amtoine"
 repo="wallpapers"
 url="https://$host/$owner/$repo.git"
 license=('GNU')

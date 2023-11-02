@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=goat-dmenu-git
+pkgname=amtoine-dmenu-git
 pkgver=r597.28fb3e2
 pkgrel=1
 epoch=
 pkgdesc="A heavily patched build of dmenu."
 arch=(x86_64)
 host="github.com"
-owner="goatfiles"
+owner="amtoine"
 repo="dmenu"
 url="https://$host/$owner/$repo.git"
 license=('GNU')

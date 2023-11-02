@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=goat-scripts-git
+pkgname=amtoine-scripts-git
 pkgver=r42.316356d
 pkgrel=1
 epoch=
 pkgdesc="My personal collection of scripts."
 arch=(x86_64)
 host="github.com"
-owner="goatfiles"
+owner="amtoine"
 repo="scripts"
 url="https://$host/$owner/$repo.git"
 license=('GNU')

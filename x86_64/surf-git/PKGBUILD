@@ -1,12 +1,12 @@
 # Maintainer: Antoine Stevan
-pkgname=goat-surf-git
+pkgname=amtoine-surf-git
 pkgver=5.0.r628.7e63f07
 pkgrel=1
 epoch=
 pkgdesc="A heavily patched build of surf."
 arch=(x86_64)
 host="github.com"
-owner="goatfiles"
+owner="amtoine"
 repo="surf"
 url="https://$host/$owner/$repo.git"
 license=('GNU')
