@@ -15,7 +15,7 @@ def gen-table [] {
         rename name version |
         sort-by name |
         to md --pretty |
-        save --append $versions_file
+        save --force --append $versions_file
 }
 
 
@@ -24,21 +24,20 @@ def gen-links [] {
         insert url {
             |it|
             let pkg = ($it.name  | str replace $"($path)/" "")
-            $"[($pkg)]: https://github.com/goatfiles/pkgbuilds/blob/main/($path)/($pkg)/PKGBUILD"
+            $"[($pkg)]: https://github.com/amtoine/pkgbuilds/blob/main/($path)/($pkg)/PKGBUILD"
         } |
         select url |
         to csv -n |
-        save --append $versions_file
+        save --force --append $versions_file
 }
 
 
 def main [] {
-    echo $header | save $versions_file
+    echo $header | save --force $versions_file
+    echo "\n" | save --append $versions_file
+    echo "\n" | save --append $versions_file
     gen-table
-    echo "" | save --append $versions_file
-    echo "" | save --append $versions_file
+    echo "\n" | save --append $versions_file
+    echo "\n" | save --append $versions_file
     gen-links
 }
-
-
-main
